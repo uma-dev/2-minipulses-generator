@@ -1,20 +1,23 @@
 # 2 Minipulses Generator
 
-Easy to use _signal generator_ in Nucleo board with STM32F446 chip that produces two **width** and **delay** variable pulses. Both values can be setted by rotary encoders, additionaly the interface and values are shown in a TFT LCD display. 
+Easy to use _signal generator_ in Nucleo board with STM32F446RE chip, produces two **width** and **delay** variable pulses. Both values can be setted by rotary encoders, additionaly the interface and values are shown in a TFT LCD display. 
 This project is a cheap way to produce test signals for [TDR](https://en.wikipedia.org/wiki/Time-domain_reflectometer) implementations and [OTDR](https://en.wikipedia.org/wiki/Optical_time-domain_reflectometer)
 implementations if a Optic layer is added.
 
 ## Advantages 
-
+Having test signals for TDR projects is not easy, beacuse you need expensive bench equipment, this idea beind this project help you creating the test signals using only one board, two rotary encoders and LCD display.  
+The principle of function can be recreated almost any board with timers and interrupts, but keep in mind that the pulse width and its granularity depends on the clock frequency of the chipset, so it is highly recommended to use the fastest yet acccurate clock available in your board.
 
 ## Principle of function 
+The basic idea behind this signal genarator is to map the value setted on a first rottary encoder on a pulse width using a **timer** linked to an output square waveform _a)_. The RISING EDGE of the signal will also act as an input to an **interrupt** wich triggers another timer that counts from zero to a value mapped from the second rotary encoder. Once  the timer overflows, a second output produce an indentical square waveform that the first output.
 
 ### Timer 
 
 <p align="center">
 	<img alt="Timer" width="430" src="https://user-images.githubusercontent.com/22565959/214214673-25162a70-bec2-4fcd-b882-32467db8874a.png">
-	<img alt="Timer" width="300" src="">
+	<img alt="Timer" width="300" src="https://user-images.githubusercontent.com/22565959/215172901-a9537a61-2463-41c7-8b32-8e7533c63895.png">
 </p>
+
 
 ### Interrupt
 
