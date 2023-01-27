@@ -15,8 +15,8 @@ The basic idea behind this signal genarator is to map the value setted on a firs
 Every timer counts from zero to a designated value in a frequency obtained from the clock divided by a prescaler, in STM32 chipsets we can generate a PWM signal associated with those events.
 
 <p align="center">
-	<img alt="Timer" width="380" src="https://user-images.githubusercontent.com/22565959/214214673-25162a70-bec2-4fcd-b882-32467db8874a.png">
-	<img alt="Timer" width="350" src="https://user-images.githubusercontent.com/22565959/215180019-97258815-aaa1-483c-9898-3a4c40a8e4a6.png">
+	<img alt="Timer" width="382" src="https://user-images.githubusercontent.com/22565959/214214673-25162a70-bec2-4fcd-b882-32467db8874a.png">
+	<img alt="Timer" width="348" src="https://user-images.githubusercontent.com/22565959/215180019-97258815-aaa1-483c-9898-3a4c40a8e4a6.png">
 </p>
 
 
@@ -30,8 +30,8 @@ One interrupt is used
 ### LCD Display
 As we discusse before, this project was written using the peripherals: Digital input, interrupts and timmers of **Nucleo board**, so there is not a polling routine.  The void loop is used to refresh  the display with the value of the potentiometers. An 3,5 inch TFT LCD display with **ILI9488** driver IC is connected throught SPI interface with the Nucleo board to ensure that users can track their setted delay and pulses width.
 <p align="center">
-	<img alt="Nucleo pinout" width="300" src="https://user-images.githubusercontent.com/22565959/214215515-b64c2e0b-1136-4dd1-8ae6-204e58d63ceb.png">
-	<img alt="Nucleo pinout" width="300" src="https://user-images.githubusercontent.com/22565959/215190415-99fce0df-bb1e-46e6-8058-57e286c8f638.png">
+	<img alt="Nucleo pinout" width="550" src="https://user-images.githubusercontent.com/22565959/214215515-b64c2e0b-1136-4dd1-8ae6-204e58d63ceb.png">
+	<img alt="Nucleo pinout" width="150" src="https://user-images.githubusercontent.com/22565959/215190415-99fce0df-bb1e-46e6-8058-57e286c8f638.png">
 
 </p>
 
