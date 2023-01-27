@@ -15,7 +15,7 @@ The basic idea behind this signal genarator is to map the value setted on a firs
 
 <p align="center">
 	<img alt="Timer" width="430" src="https://user-images.githubusercontent.com/22565959/214214673-25162a70-bec2-4fcd-b882-32467db8874a.png">
-	<img alt="Timer" width="300" src="https://user-images.githubusercontent.com/22565959/215172901-a9537a61-2463-41c7-8b32-8e7533c63895.png">
+	<img alt="Timer" width="300" src="https://user-images.githubusercontent.com/22565959/215180019-97258815-aaa1-483c-9898-3a4c40a8e4a6.png">
 </p>
 
 
