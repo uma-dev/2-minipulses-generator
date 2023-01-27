@@ -20,7 +20,6 @@ The basic idea behind this signal genarator is to map the value setted on a firs
 Every timer counts from zero to a designated value in a frequency obtained from the clock divided by a prescaler, in STM32 chipsets we can generate a PWM signal associated with those events.
 
 <p align="center">
-
 	<img alt="Timer" width="383" src="https://user-images.githubusercontent.com/22565959/214214673-25162a70-bec2-4fcd-b882-32467db8874a.png">
 	<img alt="Timer" width="347" src="https://user-images.githubusercontent.com/22565959/215180019-97258815-aaa1-483c-9898-3a4c40a8e4a6.png">
 </p>
