@@ -3,8 +3,9 @@
 Easy to use _signal generator_ in Nucleo board with STM32F446RE chip, produces two **width** and **delay** variable pulses. Both values can be setted by rotary encoders, additionaly the interface and values are shown in a TFT LCD display. 
 This project is a cheap way to produce test signals for [TDR](https://en.wikipedia.org/wiki/Time-domain_reflectometer) implementations and [OTDR](https://en.wikipedia.org/wiki/Optical_time-domain_reflectometer)
 implementations if a Optic layer is added.
+
 <p align="center">
-	<img alt="Timer" width="400" src="https://user-images.githubusercontent.com/22565959/215195166-088dbaa5-6cff-47f3-a320-da5ed666b305.png">
+	<img alt="Nuicleo board" width="400" src="https://user-images.githubusercontent.com/22565959/215195552-b0238f6d-21b4-4624-b0a7-b71f18466ac9.png">
 </p>
 	
 
