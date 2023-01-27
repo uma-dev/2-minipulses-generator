@@ -30,8 +30,8 @@ One interrupt is used
 ### LCD Display
 As we discusse before, this project was written using the peripherals: Digital input, interrupts and timmers of **Nucleo board**, so there is not a polling routine.  The void loop is used to refresh  the display with the value of the potentiometers. An 3,5 inch TFT LCD display with **ILI9488** driver IC is connected throught SPI interface with the Nucleo board to ensure that users can track their setted delay and pulses width.
 <p align="center">
-	<img alt="Nucleo pinout" width="550" src="https://user-images.githubusercontent.com/22565959/214215515-b64c2e0b-1136-4dd1-8ae6-204e58d63ceb.png">
-	<img alt="Nucleo pinout" width="150" src="https://user-images.githubusercontent.com/22565959/215190415-99fce0df-bb1e-46e6-8058-57e286c8f638.png">
+	<img alt="Nucleo pinout" width="480" src="https://user-images.githubusercontent.com/22565959/214215515-b64c2e0b-1136-4dd1-8ae6-204e58d63ceb.png">
+	<img alt="Nucleo pinout" width="220" src="https://user-images.githubusercontent.com/22565959/215190415-99fce0df-bb1e-46e6-8058-57e286c8f638.png">
 
 </p>
 
