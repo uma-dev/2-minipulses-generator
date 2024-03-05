@@ -1,6 +1,6 @@
 # 2 Minipulses Generator
 
-Easy to use _signal generator_ in Nucleo board with STM32F446RE chip, produces two **width** and **delay** variable pulses. Both values can be setted by rotary encoders, additionaly the interface and values are shown in a TFT LCD display. 
+Easy to use _signal generator_ in Nucleo board with [STM32F446RE](https://www.st.com/en/microcontrollers-microprocessors/stm32f446re.html) chip, produces two **width** and **delay** variable pulses. Both values can be setted by rotary encoders, additionaly the interface and values are shown in a TFT LCD display. 
 This project is a cheap way to produce test signals for [TDR](https://en.wikipedia.org/wiki/Time-domain_reflectometer) implementations and [OTDR](https://en.wikipedia.org/wiki/Optical_time-domain_reflectometer)
 implementations if a Optic layer is added.
 
